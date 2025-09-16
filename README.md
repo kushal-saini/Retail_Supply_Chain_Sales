@@ -9,79 +9,61 @@ This project presents a multi-dimensional analysis of retail sales data through 
 - **Product Analysis**: Category performance and profitability insights  
 - **Customer Insights**: Behavioral patterns and segmentation analysis
 
-## 📈 Dashboard Highlights
+# Sales, Product & Customer Insights Dashboard  
 
-### 1. Sales Analysis
-- **Total Revenue**: $2.30M with $286.40K profit (12.4% margin)
-- **Regional Growth**: Tracked growth velocity across 4 regions (2014-2017)
-- **Category Performance**: Technology leads with $0.84M in sales
-- **Segment Analysis**: Consumer, Corporate, and Home Office breakdowns
+This project demonstrates end-to-end **data visualization and dashboarding skills** using a retail sales dataset. It highlights sales performance, product trends, and customer insights through three interactive reports.  
 
-### 2. Product Analysis
-- **Product Portfolio**: 37.87K units sold across multiple categories
-- **Return Rate**: 8.00% overall with sub-category breakdown
-- **Top Performers**: Phones, Chairs, and Storage leading sales
-- **Profitability**: Identified bottom 10 categories for optimization
+---
 
-### 3. Customer Insights
-- **Customer Base**: 793 active customers
-- **Average Order Value**: $2,896.85 per customer
-- **Retention**: 98.49% repeat purchase rate
-- **Geographic Distribution**: Sales mapping across US regions
+## 📊 Reports  
 
-## 🗂️ Data Structure
+### 1. Sales Analysis  
+- Overview of **total sales** ($2.3M) and **profit** ($286K).  
+- Sales trends by **region, year, and category**.  
+- Profitability across **segments (Consumer, Corporate, Home Office)**.  
+- Growth velocity analysis to measure regional performance.  
 
-The analysis is based on retail sales data with the following key dimensions:
+### 2. Product Analysis  
+- Top 10 and bottom 10 product categories by sales & profit.  
+- Sales & profit trends across **sub-categories** over time.  
+- Relationship between **discounts and profitability**.  
+- Return rate by sub-category to identify product risks.  
 
-| Column | Description | Type |
-|--------|-------------|------|
-| Order ID | Unique order identifier | String |
-| Order Date / Ship Date | Transaction timeline | Date |
-| Customer Info | ID, Name, Segment | String |
-| Geography | Country, City, State, Region | String |
-| Product Details | Category, Sub-Category, Product Name | String |
-| Metrics | Sales, Quantity, Discount, Profit | Numeric |
-| Returns | Product return status | Boolean |
+### 3. Customer Insights  
+- Total customers: **793** with **98% repeat purchase rate**.  
+- Engagement categories: **Active, Churned, At Risk**.  
+- Customer distribution by **region & segment**.  
+- Top 10 customer contributions and **average sales/profit per customer**.  
 
-## 🛠️ Tools & Technologies
+---
 
-- **Visualization**: Tableau/Power BI
-- **Data Processing**: Excel/Python
-- **Analysis Period**: 2014-2017
-- **Geographic Scope**: United States
+## 📂 Dataset Columns  
 
-## 📊 Key Insights
+| Column Name        | Description |
+|--------------------|-------------|
+| Row ID             | Unique row identifier |
+| Order ID           | Unique order identifier |
+| Order Date         | Date of order placement |
+| Ship Date          | Date of shipping |
+| Ship Mode          | Shipping type (e.g., Standard, Express) |
+| Customer ID        | Unique customer identifier |
+| Customer Name      | Customer’s full name |
+| Segment            | Customer segment (Consumer, Corporate, Home Office) |
+| Country            | Country of sale |
+| City, State        | Customer’s location |
+| Postal Code        | Location ZIP code |
+| Region             | Sales region (Central, East, South, West) |
+| Retail Sales People| Sales representative |
+| Product ID         | Unique product identifier |
+| Category           | Product category (Technology, Furniture, Office Supplies) |
+| Sub-Category       | Product sub-category |
+| Product Name       | Product description |
+| Returned           | Return status |
+| Sales              | Total sales amount |
+| Quantity           | Number of items sold |
+| Discount           | Discount applied |
+| Profit             | Net profit earned |
 
-### Sales Performance
-- Consistent year-over-year growth from $0.48M (2014) to $0.73M (2017)
-- West region showing highest growth velocity at 33.95%
-- Technology category driving 36% of total revenue
-
-### Customer Behavior
-- High customer loyalty with 98.49% repeat purchase rate
-- Consumer segment dominates with 409 customers
-- Top 10 customers contribute 6.7% of total revenue
-
-### Product Optimization
-- 11.30% return rate in Machines sub-category needs attention
-- Strong correlation between discount levels and profitability
-- Seasonal trends visible in sales patterns
-
-## 🚀 Business Recommendations
-
-1. **Regional Focus**: Invest more in West region growth strategies
-2. **Product Mix**: Expand Technology category offerings
-3. **Customer Retention**: Leverage high repeat purchase rate for upselling
-4. **Return Management**: Address high return rates in specific categories
-
-
-
-## 🎯 Skills Demonstrated
-
-- **Business Intelligence**: Multi-dimensional data analysis
-- **Data Visualization**: Interactive dashboard creation
-- **Statistical Analysis**: Growth trends and performance metrics
-- **Business Insights**: Actionable recommendations from data
 
 ## 📞 Connect With Me
 
