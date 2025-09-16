@@ -2,7 +2,7 @@
 
 A comprehensive business intelligence dashboard analyzing sales performance, product insights, and customer behavior patterns using interactive visualizations.
 
-## 🎯 Project Overview ![Overview](assets/Animation.gif) 
+## 🎯 Project Overview ![Overview](Assets/Animation.gif) 
 
 This project presents a multi-dimensional analysis of retail sales data through three focused dashboards:
 - **Sales Analysis**: Regional performance and growth trends
