@@ -67,8 +67,7 @@ This project demonstrates end-to-end **data visualization and dashboarding skill
 
 ## 📞 Connect With Me
 
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Email**: [Your Email]
-- **Portfolio**: [Your Portfolio Website]
+- **LinkedIn**: [https://www.linkedin.com/in/kushal-saini-b90082183/]
+- **Email**: [kushalssaini14@gmail.com]
 
 ---
